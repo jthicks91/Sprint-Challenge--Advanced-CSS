@@ -1,1 +1,27 @@
 // Mixins Here
+
+.flex(@justify: space-evenly) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.center() {
+    justify-content: center;
+  align-items: center;
+}
+
+.imgStyle() {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-mix(@color: white; @bgcolor: darkcyan;) {
+    font-size: 1.7rem;
+    color: @color;
+    background-color: @bgcolor;
+    width: 80%;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 12px;
+}
