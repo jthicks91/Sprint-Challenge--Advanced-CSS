@@ -180,6 +180,7 @@ p {
   width: 485px;
   display: flex;
   justify-content: space-evenly;
+  font-weight: bold;
 }
 .nav a {
   text-decoration: none;
@@ -237,6 +238,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.7rem;
+  color: white;
+  background-color: #23293B;
+  width: 31%;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 12px;
+}
+.home .walk .walk-text .btn:hover {
+  background: lightgray;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;
