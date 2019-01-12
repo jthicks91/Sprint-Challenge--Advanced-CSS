@@ -36,16 +36,16 @@ Edit this document to include your answers after each question. Make sure to lea
     -The Adaptive web design has break points and media queries for the tablet and phone views, but they do not respond until/unless they hit a break point set a specific width. Responsive however WILL change/respond as the screen size increase or decreases without utilzing breakpoints.
 
 2. Describe what it means to be mobile first vs desktop first.
-    - Mobile first means that the default CSS coding is for mobile views and that one must utilizie the @media for those style to change for viewing the desktop design by using max-width; Desktop first is the opposite and uses min-width;
+    - Mobile first means that the default CSS coding is for mobile views and that one must utilizie the @media for those style to change for viewing the desktop design by using max-width. Desktop first is the opposite and uses min-width. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-    --it allows us to use 1rem as if it was base 10 font size but more importantly it allows our code to honor and obey the user settings by being more accessible to all our user and allow our content to better their overall user experience. 
+    -This value allows us to use 1rem as if it was base 10 font size which makes it easier to calculate the conversion but more importantly it allows our code to be accessible to all our users and allow our content to positively improve their overall user experience. 
 
 4. How would you describe preprocessing to someone new to CSS?
-    --Preprocessing is a tool that developers use to save time and write clearer code that is more DRY. By using a preprocessor like LESS it will allow you as developer to keep your code DRY, modularize sections for better organization, save a ton of time, and make it easier for future developers to make changes without going through thousands of line of raw css code.
+    -Preprocessing is a tool that developers use to save time and write clearer code that is more DRY. By using a preprocessor like LESS it will allow you as developer to keep your code DRY, modularize sections for better organization, save a ton of time, and make it easier for future developers to make changes without going through thousands of line of raw css code.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-    - The organization is my favorite part but its also the part that hurt you as well if you're not staying on top of it;
+    - The organization is my favorite part but its also the part that can hurt you as well if you're not staying on top of it and constantly making sure everything is streamlined throughout the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -110,9 +110,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 

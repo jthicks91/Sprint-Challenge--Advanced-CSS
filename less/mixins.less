@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.imgStyle() {
+.MBIS() {
     display: flex;
     flex-wrap: wrap;
 }
@@ -24,4 +24,14 @@
     border-radius: 7px;
     text-align: center;
     padding-top: 12px;
+
+    &:hover {
+        background: lightgray;
+        color: #23293B;
+    }
+    @media @phone {
+        width: 100%;
+        padding: 5.75% 3.5% 9% 1%;
+        border-radius: 5px;
+    }
 }
