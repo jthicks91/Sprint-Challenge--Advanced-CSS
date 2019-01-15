@@ -1,1 +1,37 @@
 // Mixins Here
+
+.flex(@justify: space-evenly) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.center() {
+    justify-content: center;
+  align-items: center;
+}
+
+.MBIS() {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-mix(@color: white; @bgcolor: #23293B;) {
+    font-size: 1.7rem;
+    color: @color;
+    background-color: @bgcolor;
+    width: 31%;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 12px;
+
+    &:hover {
+        background: lightgray;
+        color: #23293B;
+    }
+    @media @phone {
+        width: 100%;
+        padding: 5.75% 3.5% 9% 1%;
+        border-radius: 5px;
+    }
+}
